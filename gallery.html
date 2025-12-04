@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Change</title>
+        <script>
+            function demo()
+            {
+                let img=document.getElementById("im");
+                img.src="fam.jpg";
+            }
+            function prev()
+            {
+                let img=document.getElementById("im");
+                img.src="tharu img.jpg";
+            }
+        </script>
+        <body>
+            <img src="tharu img.jpg" alt="" width="400px" height="600px" id="im">
+
+            <br>
+            <button onclick="demo()">Next</button>
+            <button onclick="prev()">Previous</button>
+        </body>
+    </head>
+</html>
